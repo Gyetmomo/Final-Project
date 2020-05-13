@@ -1,4 +1,7 @@
 /**
+ * This program is based off of the real life game MASTERMIND, a popular board in which you guess
+ * a combination of colors in a specific order. The rules explain more in detail how the game is played.
+ * 
  * @author Sufiyan Mohammad
  */
 
