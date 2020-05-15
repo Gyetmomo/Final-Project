@@ -33,7 +33,7 @@ public class Attempt {
 
     /**
      *
-     * @param codeLength
+     * @param codeLength : length of the code
      */
     public Attempt(int codeLength) {
 
@@ -46,8 +46,8 @@ public class Attempt {
 
     /**
      *
-     * @param codeLength
-     * @param colorNb
+     * @param codeLength : length of the code
+     * @param colorNb : this for the number of colors that will be used in the game, if ever i want to change it.
      */
     public Attempt(int codeLength, int colorNb) {
 
@@ -61,7 +61,7 @@ public class Attempt {
     /**
      *
      * @param codeLength
-     * @param myCombination
+     * @param myCombination : this is the user's combination of colors.
      */
     public Attempt(int codeLength, String[] myCombination) {
 
@@ -89,7 +89,7 @@ public class Attempt {
 
     /**
      *
-     * @return
+     * @return 
      */
     public int getLength() {
 

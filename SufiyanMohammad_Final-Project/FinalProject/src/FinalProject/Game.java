@@ -13,7 +13,7 @@ import java.util.Random;
 
 /**
  *
- * @author moham
+ * @author Sufiyan Mohammad
  */
 public class Game {
 
