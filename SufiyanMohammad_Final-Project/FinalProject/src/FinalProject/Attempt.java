@@ -18,6 +18,10 @@ public class Attempt {
     private String[] combination;
 
     // Constructors
+
+    /**
+     *
+     */
     public Attempt() {
 
         this.codeLength = 4;
@@ -27,6 +31,10 @@ public class Attempt {
         this.combination = myCombination;
     }
 
+    /**
+     *
+     * @param codeLength
+     */
     public Attempt(int codeLength) {
 
         this.codeLength = codeLength;
@@ -36,6 +44,11 @@ public class Attempt {
         this.combination = myCombination;
     }
 
+    /**
+     *
+     * @param codeLength
+     * @param colorNb
+     */
     public Attempt(int codeLength, int colorNb) {
 
         this.codeLength = codeLength;
@@ -45,6 +58,11 @@ public class Attempt {
         this.combination = myCombination;
     }
 
+    /**
+     *
+     * @param codeLength
+     * @param myCombination
+     */
     public Attempt(int codeLength, String[] myCombination) {
 
         this.codeLength = codeLength;
@@ -53,6 +71,12 @@ public class Attempt {
 
     }
 
+    /**
+     *
+     * @param codeLength
+     * @param colorNb
+     * @param myCombination
+     */
     public Attempt(int codeLength, int colorNb, String[] myCombination) {
 
         this.codeLength = codeLength;
@@ -62,31 +86,56 @@ public class Attempt {
     }
 
     // Set attribute and Get attribute
+
+    /**
+     *
+     * @return
+     */
     public int getLength() {
 
         return codeLength;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getColorNb() {
 
         return colorNb;
     }
 
+    /**
+     *
+     * @return
+     */
     public String[] getCombination() {
 
         return combination;
     }
 
+    /**
+     *
+     * @param length
+     */
     public void setLength(int length) {
 
         this.codeLength = length;
     }
 
+    /**
+     *
+     * @param colorNb
+     */
     public void setColorNb(int colorNb) {
 
         this.colorNb = colorNb;
     }
 
+    /**
+     *
+     * @param combination
+     */
     public void setCombination(String[] combination) {
 
         this.combination = combination;

@@ -90,7 +90,7 @@ public class MasterMind {
     
     /**
      *
-     * @return
+     * @return : returns the secret code
      */
     public Attempt getSecretCode(){
     
@@ -99,7 +99,7 @@ public class MasterMind {
     
     /**
      *
-     * @return
+     * @return : returns the essay
      */
     public Attempt getEssay(){
     
@@ -108,7 +108,7 @@ public class MasterMind {
 
     /**
      *
-     * @return
+     * @return : returns the essay
      */
     public boolean getSuccess(){
     
@@ -117,7 +117,7 @@ public class MasterMind {
     
     /**
      *
-     * @param secretCode
+     * @param secretCode 
      */
     public void setSecretCode(Attempt secretCode){
     
@@ -144,7 +144,7 @@ public class MasterMind {
     
     /**
      *
-     * @return
+     * @return : returns the boolean value of the comparison between the secret code and essay.
      */
     public boolean comparison(){
         
