@@ -11,10 +11,18 @@ import java.util.Locale;
 import java.util.Scanner;
 import java.util.Random;
 
-public class Jeu {
+/**
+ *
+ * @author moham
+ */
+public class Game {
 
     static Scanner keyboard = new Scanner(System.in);
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         
         keyboard.useLocale(Locale.ENGLISH);

@@ -8,13 +8,18 @@ package FinalProject;
 /**
  *
  * @author Sufiyan Mohammad
+ * MasterMind is a class 
  */
+
 public class MasterMind {
     
     private Attempt secretCode;
     private Attempt essay; 
     private boolean success;
     
+    /**
+     *
+     */
     public MasterMind(){
     
         this.secretCode = new Attempt(); 
@@ -22,7 +27,11 @@ public class MasterMind {
         this.success = false;
     }
     
-    
+    /**
+    *This constructor creates the mastermind
+    * 
+    * @param secretCode : blablah
+    */
     public MasterMind(Attempt secretCode) {
         
         this.secretCode = secretCode; 
@@ -31,6 +40,11 @@ public class MasterMind {
     
     }
     
+    /**
+     *
+     * @param secretCode
+     * @param essay
+     */
     public MasterMind(Attempt secretCode, Attempt essay ) {
         
 
@@ -40,6 +54,11 @@ public class MasterMind {
     
     }  
    
+    /**
+     *
+     * @param secretCode
+     * @param success
+     */
     public MasterMind(Attempt secretCode, boolean success ) {
         
         this.secretCode = secretCode; 
@@ -47,7 +66,19 @@ public class MasterMind {
         this.success = false;
     
     }  
-  
+  /*
+    This consdtructor
+    @param secretCode 
+    
+    */
+
+    /**
+     *
+     * @param secretCode
+     * @param essay
+     * @param success
+     */
+
     public MasterMind(Attempt secretCode, Attempt essay, boolean success) {
         
         this.secretCode = secretCode; 
@@ -56,37 +87,64 @@ public class MasterMind {
     
     }   
     
-    
+    /**
+     *
+     * @return
+     */
     public Attempt getSecretCode(){
     
         return secretCode;
     }
     
+    /**
+     *
+     * @return
+     */
     public Attempt getEssay(){
     
         return essay;
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean getSuccess(){
     
         return success;
     }
     
+    /**
+     *
+     * @param secretCode
+     */
     public void setSecretCode(Attempt secretCode){
     
         this.secretCode = secretCode;
     }
     
+    /**
+     *
+     * @param essay
+     */
     public void setEssay(Attempt essay){
     
         this.essay = essay;
     }
     
+    /**
+     *
+     * @param success
+     */
     public void getSuccess(boolean success){
     
         this.success = success;
     }
     
+    /**
+     *
+     * @return
+     */
     public boolean comparison(){
         
         int goodAnswer = 0;
