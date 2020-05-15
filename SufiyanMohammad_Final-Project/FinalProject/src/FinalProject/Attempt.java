@@ -89,7 +89,7 @@ public class Attempt {
 
     /**
      *
-     * @return 
+     * @return : returns the length
      */
     public int getLength() {
 
@@ -98,7 +98,7 @@ public class Attempt {
 
     /**
      *
-     * @return
+     * @return : returns the color number
      */
     public int getColorNb() {
 
@@ -107,7 +107,7 @@ public class Attempt {
 
     /**
      *
-     * @return
+     * @return : returns the combination
      */
     public String[] getCombination() {
 
@@ -134,7 +134,7 @@ public class Attempt {
 
     /**
      *
-     * @param combination
+     * @param combination 
      */
     public void setCombination(String[] combination) {
 

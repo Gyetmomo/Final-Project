@@ -8,7 +8,8 @@ package FinalProject;
 /**
  *
  * @author Sufiyan Mohammad
- * MasterMind is a class 
+ * MasterMind is a class that compares the user input to secret code and handles it with the essay, it also has the 
+ * success method which says true if the user is right.
  */
 
 public class MasterMind {
